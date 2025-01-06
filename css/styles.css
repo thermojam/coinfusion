@@ -1,0 +1,393 @@
+@font-face {
+    font-family: 'SpaceGrotesk-Regular';
+    src: url('../fonts/SpaceGrotesk-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk-Medium';
+    src: url('../fonts/SpaceGrotesk-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFFFFF;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0 100px 0;
+    background-color: #000000;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: spaceGrotesk-Medium, sans-serif;
+    font-size: 30px;
+    color: #5846fb;
+}
+
+.menu {
+    margin-left: 353px;
+    background-color: #fff;
+    padding: 28px 114px;
+    border-radius: 100px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.menu-item {
+
+    margin-right: 50px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.main {
+    z-index: 999;
+    position: relative;
+    background-color: #000000;
+    padding: 207px 100px;
+    border-radius: 0 0 100px 100px;
+}
+
+.main-wrapper {
+    text-align: center;
+}
+
+.main-title {
+    font-family: SpaceGrotesk-Medium, sans-serif;
+    font-size: 136px;
+    color: #FFFFFF;
+    line-height: 146px;
+    letter-spacing: -2px;
+}
+
+.main-description {
+    margin-top: 41px;
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 36px;
+    text-wrap: balance;
+}
+
+.main-btn {
+    padding: 24px 58px;
+    margin-top: 40px;
+    font-family: SpaceGrotesk-Medium, sans-serif;
+    font-size: 20px;
+    background-color: #5846FB;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    background-color: rgba(148, 95, 255, 0.82);
+}
+
+.main-btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.main-images {
+    position: absolute;
+    top: -2%;
+    left: 20%;
+    z-index: -1;
+}
+
+.group-difference {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-item {
+    margin-right: 21px;
+    background-color: #1F2123;
+    border-radius: 100px;
+}
+
+.group-info {
+    max-width: 412px;
+    padding: 45px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-svg {
+    margin-right: 10px;
+}
+
+.group-text {
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.learn {
+    padding: 284px 0 160px 0;
+}
+
+.learn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.learn-info {
+    max-width: 643px;
+}
+
+.learn-title {
+    font-family: SpaceGrotesk-Medium, sans-serif;
+    font-size: 100px;
+    line-height: 110px;
+    letter-spacing: -2px;
+    color: #000000;
+}
+
+.learn-description {
+    margin-top: 21px;
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+
+.learn-action {
+    margin-top: 44px;
+}
+
+.learn-btn {
+    padding: 18px 30px;
+    width: 200px;
+    height: 60px;
+    color: #FFFFFF;
+    font-family: SpaceGrotesk-Medium, sans-serif;
+    background-color: #5846FB;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.learn-coin {
+    max-width: 840px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 20px;
+}
+
+.first-block {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.metric {
+    margin-right: 22px;
+    border-radius: 100px;
+    background-color: #F0F0F0;
+    padding: 37px 65px;
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 72px;
+    color: #000000;
+}
+
+.sale {
+    display: flex;
+    align-items: center;
+    background-color: #5846FB;
+    padding: 37px 65px;
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 72px;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.interval-text {
+    margin-left: 10px;
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.last-block {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.courtesy {
+    font-family: SpaceGrotesk-Medium, sans-serif;
+    font-size: 30px;
+    color: #000000;
+    background-color: #F0F0F0;
+    padding: 44px 50px;
+    border-radius: 100px;
+    max-width: 374px;
+    margin-left: 25px;
+}
+
+.features {
+    padding: 20px 0 130px 0;
+}
+
+.features-title {
+    max-width: 826px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: SpaceGrotesk-Medium, sans-serif;
+    font-size: 100px;
+    line-height: 110px;
+    letter-spacing: -2px;
+    color: #000000;
+}
+
+.features-wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-card {
+    background-color: #F0F0F0;
+    border-radius: 40px;
+    padding: 50px 40px;
+}
+
+.feature-image {
+    position: relative;
+}
+
+.feature-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.feature-content {
+    margin-top: 304px;
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #000000;
+    max-width: 282px;
+}
+
+.feature-description {
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    max-width: 320px;
+    margin-top: 17px;
+}
+
+.feature-link {
+    margin-top: 29px;
+}
+
+.feature-link a {
+    text-decoration: none;
+}
+
+.feature-link-text {
+    font-family: SpaceGrotesk-Medium, sans-serif;
+    font-size: 16px;
+    color: #5846FB;
+
+}
+
+.portfolio {
+    padding: 150px 0 70px 0;
+    background-color: #000000;
+    border-radius: 100px;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-info {
+    max-width: 677px;
+}
+
+
+.stacks-text {
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: #5846FB;
+
+}
+
+.portfolio-title {
+    margin-top: 40px;
+    font-family: SpaceGrotesk-Medium, sans-serif;
+    font-size: 100px;
+    line-height: 110px;
+    color: #FFFFFF;
+    letter-spacing: -2px;
+}
+
+.portfolio-paragraph {
+    margin-top: 40px;
+    font-family: SpaceGrotesk-Regular, sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.portfolio-images-secure img {
+   max-width: 630px;
+}
+
+.see {
+    padding: 110px 0 80px 0;
+}
+
+.see-title {
+   max-width: 502px;
+    font-family: SpaceGrotesk-Medium, sans-serif;
+    font-size: 100px;
+    line-height: 110px;
+    color: #FFFFFF;
+    letter-spacing: -2px;
+}
+
+.group-difference-build {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
